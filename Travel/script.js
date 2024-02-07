@@ -1,6 +1,6 @@
-const bars = document.querySelector(".bar"),
-close = document.querySelector(".close"),
-menu = document.querySelector(".menu");
+const bars = document.querySelector(".bar");
+const close = document.querySelector(".close");
+const menu = document.querySelector(".menu");
 
 bars.addEventListener("click", () => {
     menu.classList.add("active");
